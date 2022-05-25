@@ -1,0 +1,229 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: auto;
+    width: 90%;
+	font-size: 80%;
+	/*font-weight: bold;*/
+	background: #FFF;
+	height : 930px;
+	background : url(body.png);
+	background-attachment : fixed;
+	}
+
+h2 {
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+}
+	
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+img {
+    border: none;
+} 
+option{
+width : 150px;
+}
+pre{
+text-align : left;
+font-family: verdana,sans-serif, Bodoni MT,Comic sans MS,tahoma;
+font-size: 15px;
+}
+
+.entete
+{
+height:160px;
+width:1039px;
+border : 1px solid black;
+position : absolute;
+top : 54px;
+/* left :54px; */
+background : url(entete.png);
+-moz-border-radius: 5px 5px;
+}
+.connection {
+	margin: right;
+	float: right;
+}
+.label-conn {
+display: inline-block;
+width: 73px;
+color: #1f1;
+font-size: 15px;
+}
+.ombre
+{
+height:160px;
+width:1040px;
+border : 0px solid black;
+position : absolute;
+top : 9px;
+left : 58px;
+background-color : gray;
+-moz-border-radius: 5px 5px;
+}
+
+.menu {
+    /* height: 300px; */
+    /* width: 163px; */
+    /* border: 1px solid black; */
+    /* position: relative; */
+    /* top: 175px; */
+    /* left: 54px; */
+    background-color: white;
+    background: url(tete.png) no-repeat;
+    -moz-border-radius: 10px 0px;
+}
+.niveau1 {
+    display: flex;
+    /* float: left; */
+}
+.corp
+{
+height:740px;
+width:1038px;
+border : 1px inset black;
+position : absolute;
+top : 223px;
+/* margin: auto; */
+/* left : 224px; */
+background : url(background.JPG) top right no-repeat;
+background-color :white;
+padding-top:40px;
+-moz-border-radius:10px 10px;
+}
+.pied
+{
+height:40px;
+width:1045px;
+border : 1px solid black;
+position : absolute;
+top : 970px;
+left : 54px;
+color : gray;
+background-color : white;
+-moz-border-radius: 5px 5px;
+}
+.menu a
+{
+text-decoration : none;
+color : white;
+}
+.connexion2 a
+{
+text-decoration : none;
+color : black;
+}
+.position_titre{
+position : relative;
+top : -11px;
+left : 165px;
+}
+.formulaire{
+border : 1px inset green;
+height : auto;
+width : 470px;
+padding : 1px 10px 20px 10px;
+font-size : 1.1em;
+-moz-border-radius: 10px 10px;
+position : relative;
+top : -38px;
+left : 200px;
+font-weight: bold;
+}
+.connexion2 {
+height: 250px;position: absolute; width: 245px;
+float: right; right: 315px;
+padding-left: 10px; color: black;
+/* border: 1px solid black; */
+-moz-border-radius: 0px 20px;
+-webkit-border-radius: 20px 20px;
+-o-border-radius: 50px 20px;
+border-radius: 20px 20px;
+background: url(tete.png) no-repeat;
+top: 53px;
+}
+#monmenu {
+font-family: trebuchet ms,arial,tahoma,verdana,sans-serif;
+font-size: 90%;
+font-weight:bold;
+width: 73%;
+}
+#monmenu ul ul {
+display: none;
+ position: absolute;
+ left: 154px; /* la position des sous menu par rapport a leurs menu superieur  */
+ top: -1px; 
+ margin:0px; 
+ padding: 0px;
+ border: 1px solid #B0B0B0;
+ }
+
+ #monmenu ul li {
+width: 146px;
+}
+ 
+ #monmenu ul li a{ 
+background:  url(menu4.gif);
+padding: 4px 36px 10px 2px;
+font-size: 13px;
+margin-top:0px;
+margin-left:0px;
+display: block;
+/* text-align: center; */
+/* width: 555px */
+ }
+ 
+ #monmenu ul li a:hover{ 
+background : url(menu4.gif) 0 -32px;
+padding: 2px 0 2px 10px;
+}
+
+legend {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-bottom: .5rem;
+    font-size: 13px;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal;
+}
+#monmenu li {
+position: relative; 
+width: 80px;
+background-color: #E0E0E0;
+/* padding:  1px; */
+margin: 0px;
+list-style-type: none;
+ }
+#monmenu li:hover {/*#monmenu li.sfhover*/
+background-color: #B90101;
+}
+
+#monmenu li:hover ul.niveau2, #monmenu li li:hover ul.niveau3, #monmenu li:hover ul.niveau2, #monmenu li li:hover ul.niveau3{
+display: contents;
+z-index :10;
+}
+.label-form {
+	display: inline-block;
+	width: 86px;
+	color: aqua;
+}
+.connect-btn {
+width: 132px;
+color: #00a500;
+background-color: #d2d2d2;
+font-size: bold;
+}
+.connect-btn:hover {
+	color: black;
+	background-color: orange;
+}
+/*#monmenu li:hover ul.niveau2, #monmenu li li:hover ul.niveau3,#monmenu li li li:hover ul.niveau4, #monmenu li:hover ul.niveau2, #monmenu li li:hover ul.niveau3,#monmenu li li li:hover ul.niveau4 {*/
